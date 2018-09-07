@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Penguins</title>
+    <script src="js/app.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+<form id="penguins-form">
+  <div class="form-wrapper">
+    <div class="form-item">
+      <label for="name" class = "primary">Name: </label>
+      <input type="text" id="name" required>
+    </div>
+
+    <div class="form-item">
+      <label for="profession" class = "primary">Class: </label>
+      <select id="profession">
+        <option value="" disabled selected></option>
+        <option value="spy">spy</option>
+        <option value="killer">killer</option>
+        <option value="fishseller">fishseller</option>
+      </select>
+    </div>
+
+    <div class="form_item">
+      <fieldset id="weapon">
+        <legend>Choose a weapon:</legend>
+          <div>
+            <input type="radio" name="weapon" checked>
+            <label for="dead-fish">dead fish</label>
+          </div>
+
+          <div>
+            <input type="radio" name="weapon">
+            <label for="charming_smile">charming smile</label>
+          </div>
+
+          <div>
+            <input type="radio" name="weapon">
+            <label for="ball">ball</label>
+          </div>
+      </fieldset>
+    </div>
+  </div>
+    <input type="submit" value="save">
+</form>
+
+  <button id='delete' type="button">Delete all</button>
+
+  <h1>Penguins list:</h1>
+  <div id="penguins-list"></div>
+
+  </body>
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Reading List App</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+    <script src="js/app.js"></script>
+  </head>
+  <body>
+    <form id="new-item-form">
+      <div id="form-wrapper">
+        <div class="form-item">
+          <label for="title" class="primary">Title</label>
+          <input type="text" id="title" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="author" class="primary">Author</label>
+          <input type="text" id="author" required/>
+        </div>
+
+        <div class="form-item">
+          <label for="category" class="primary">Category</label>
+          <select id="category">
+            <option value="" disabled selected></option>
+            <option value="Book">Book</option>
+            <option value="Article">Article</option>
+            <option value="Blog Post">Blog Post</option>
+          </select>
+        </div>
+      </div>
+      <input type="submit" value="save"/>
+    </form>
+
+    <button id='delete' type="button">Delete all</button>
+
+    <h1>Reading List</h1>
+    <div id="reading-list"></div>
+  </body>
+</html>
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About -->
